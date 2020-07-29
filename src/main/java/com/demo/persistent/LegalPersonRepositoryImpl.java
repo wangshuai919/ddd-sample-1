@@ -1,7 +1,7 @@
-package com.essContext.persistent;
+package com.demo.persistent;
 
-import com.essContext.domain.model.LegalPerson;
-import com.essContext.domain.repository.LegalPersonRepository;
+import com.demo.domain.model.LegalPerson;
+import com.demo.domain.repository.LegalPersonRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

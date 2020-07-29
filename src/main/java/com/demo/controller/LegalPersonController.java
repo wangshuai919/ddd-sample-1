@@ -1,8 +1,8 @@
-package com.essContext.controller;
+package com.demo.controller;
 
-import com.essContext.controller.request.LegalPersonRequest;
-import com.essContext.domain.model.LegalPerson;
-import com.essContext.domain.service.LegalPersonService;
+import com.demo.controller.request.LegalPersonRequest;
+import com.demo.domain.model.LegalPerson;
+import com.demo.domain.service.LegalPersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;

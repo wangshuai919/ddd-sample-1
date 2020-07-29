@@ -1,9 +1,9 @@
-package com.essContext.user;
+package com.demo.user;
 
-import com.essContext.BaseTest;
+import com.demo.BaseTest;
 import org.junit.jupiter.api.Test;
 
-import static com.essContext.BaseRequestBody.body;
+import static com.demo.BaseRequestBody.body;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 

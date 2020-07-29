@@ -1,6 +1,6 @@
-package com.essContext.domain.repository;
+package com.demo.domain.repository;
 
-import com.essContext.domain.model.LegalPerson;
+import com.demo.domain.model.LegalPerson;
 
 public interface LegalPersonRepository {
 

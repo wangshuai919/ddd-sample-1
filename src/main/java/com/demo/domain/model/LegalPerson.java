@@ -1,4 +1,4 @@
-package com.essContext.domain.model;
+package com.demo.domain.model;
 
 import lombok.Builder;
 import lombok.Data;
