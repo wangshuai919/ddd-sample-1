@@ -9,7 +9,7 @@ import java.util.Map;
 
 @ResponseBody
 @ControllerAdvice
-public class EssControllerAdvice {
+public class DemoControllerAdvice {
 
     @ExceptionHandler
     public Map errorHandler(Exception ex) {

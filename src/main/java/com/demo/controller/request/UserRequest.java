@@ -6,7 +6,7 @@ import lombok.NonNull;
 
 @Data
 @NoArgsConstructor
-public class LegalPersonRequest {
+public class UserRequest {
     @NonNull
     private String type;
     @NonNull

@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class LegalPerson {
+public class User {
     private String type;
     private String companyName;
     private String companyCode;
