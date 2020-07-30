@@ -18,6 +18,17 @@ public class UserController {
 
     @PostMapping("/register")
     public User register(@Validated @RequestBody UserRequest request) throws Exception {
-        return userService.register(request);
+        User user = transfer(request);
+        return userService.register(user);
+    }
+
+    private User transfer(UserRequest request) {
+        return User.builder()
+                .phoneNo(request.getPhoneNo())
+                .password(request.getPassword())
+                .realName(request.getRealName())
+                .idType(request.getIdType())
+                .idCode(request.getIdCode())
+                .build();
     }
 }

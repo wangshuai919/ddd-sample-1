@@ -2,19 +2,17 @@ package com.demo.controller.request;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
+import org.springframework.lang.NonNull;
 
 @Data
 @NoArgsConstructor
 public class UserRequest {
     @NonNull
-    private String type;
+    private String phoneNo;
     @NonNull
-    private String companyName;
+    private String password;
     @NonNull
-    private String companyCode;
-    @NonNull
-    private String name;
+    private String realName;
     @NonNull
     private String idType;
     @NonNull

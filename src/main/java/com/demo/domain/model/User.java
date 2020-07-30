@@ -6,11 +6,10 @@ import lombok.Data;
 @Data
 @Builder
 public class User {
-    private String type;
-    private String companyName;
-    private String companyCode;
-    private String name;
+    private String id;
+    private String password;
+    private String phoneNo;
+    private String realName;
     private String idType;
     private String idCode;
-    private String id;
 }
