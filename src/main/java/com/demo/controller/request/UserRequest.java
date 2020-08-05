@@ -2,20 +2,20 @@ package com.demo.controller.request;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.lang.NonNull;
+import javax.validation.constraints.NotNull;
 
 @Data
 @NoArgsConstructor
 public class UserRequest {
-    @NonNull
+    @NotNull
     private String phoneNo;
-    @NonNull
+    @NotNull
     private String password;
-    @NonNull
+    @NotNull
     private String realName;
-    @NonNull
+    @NotNull
     private String idType;
-    @NonNull
+    @NotNull
     private String idCode;
 
 }

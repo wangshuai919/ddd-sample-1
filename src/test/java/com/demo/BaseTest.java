@@ -21,8 +21,7 @@ public abstract class BaseTest {
     @BeforeEach
     public void Before() throws SQLException {
         RestAssured.port = port;
-//        RestAssured.basePath = "/";
-
+        RestAssured.basePath = "/";
     }
 
 }
