@@ -1,4 +1,4 @@
-package com.demo.persistent;
+package com.demo.infrastructure;
 
 import com.demo.domain.model.User;
 import com.demo.domain.repository.UserRepository;

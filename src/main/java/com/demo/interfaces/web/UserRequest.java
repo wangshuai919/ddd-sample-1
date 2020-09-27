@@ -1,4 +1,4 @@
-package com.demo.controller.request;
+package com.demo.interfaces.web;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

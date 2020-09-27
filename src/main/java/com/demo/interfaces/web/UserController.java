@@ -1,6 +1,5 @@
-package com.demo.controller;
+package com.demo.interfaces.web;
 
-import com.demo.controller.request.UserRequest;
 import com.demo.domain.model.User;
 import com.demo.domain.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
