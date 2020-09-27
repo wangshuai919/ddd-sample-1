@@ -1,7 +1,7 @@
 package com.demo.interfaces.web;
 
-import com.demo.domain.model.User;
-import com.demo.domain.service.UserService;
+import com.demo.domain.user.User;
+import com.demo.application.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

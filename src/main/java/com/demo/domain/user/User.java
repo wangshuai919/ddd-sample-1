@@ -1,4 +1,4 @@
-package com.demo.domain.model;
+package com.demo.domain.user;
 
 import lombok.Builder;
 import lombok.Data;

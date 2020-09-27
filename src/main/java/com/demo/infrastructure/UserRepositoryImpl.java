@@ -1,7 +1,7 @@
 package com.demo.infrastructure;
 
-import com.demo.domain.model.User;
-import com.demo.domain.repository.UserRepository;
+import com.demo.domain.user.User;
+import com.demo.domain.user.UserRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
