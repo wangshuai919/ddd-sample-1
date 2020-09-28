@@ -9,13 +9,22 @@ String projectName
 String taskId
 ----
 void process()
+void save()
 }
 
 class ProjectResult <<Value Object>>
+
 class ProjectMaterial <<Entity>>
+
+class HandleEvent{
+Project project
+approve()
+returnApproval()
+}
 
 Project <-- ProjectResult
 Project <-- ProjectMaterial
+Project <-- HandleEvent
 
 
 
