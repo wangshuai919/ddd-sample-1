@@ -1,7 +1,6 @@
 @startuml
 package project <<Aggregate>>{
 
-
 class Project <<Aggregate>>{
 String id
 String projectNo
@@ -22,8 +21,8 @@ approve()
 returnApproval()
 }
 
-Project <-- ProjectResult
-Project <-- ProjectMaterial
+Project "1" *-- "1" ProjectResult
+Project "1" *-- "1..n" ProjectMaterial
 Project <-- HandleEvent
 
 
