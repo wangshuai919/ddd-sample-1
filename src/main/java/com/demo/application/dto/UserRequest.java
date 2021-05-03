@@ -1,4 +1,4 @@
-package com.demo.interfaces.web.dto;
+package com.demo.application.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
