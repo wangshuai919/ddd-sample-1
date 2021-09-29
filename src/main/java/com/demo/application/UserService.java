@@ -11,6 +11,7 @@ public class UserService {
     UserRepository userRepository;
 
     public User register(User user) throws Exception {
+        user.registry();
         return userRepository.save(user);
     }
 
