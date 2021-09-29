@@ -1,7 +1,8 @@
-package com.demo.application.dto;
+package com.demo.interfaces.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import javax.validation.constraints.NotNull;
 
 @Data
@@ -17,6 +18,4 @@ public class UserRequest {
     private String idType;
     @NotNull
     private String idCode;
-
 }
-
